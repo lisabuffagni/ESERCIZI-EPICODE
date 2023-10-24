@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. 
+    Scopri come iniziare in modo facile.">
+
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.svg" alt="logo_epicode">
+
+        <h1>Epicode - Il blog dei developers</h1>
+
+        <nav>
+            <span>
+                <a href="#">Home</a>
+            </span>
+            <span>
+                <a href="#">Articoli</a>
+            </span>
+            <span>
+                <a href="#">Lavora con noi</a>
+            </span>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article>
+            <h2>Come creare un template per i post</h2>
+
+            <p>di Mario Rossi - pubblicato il 25/10/2020</p>
+
+            <p>
+                La prima cosa da fare è suddividere in blocchi logici la pagina,
+                identificando le parti comuni da applicare a tutte le pagine.
+            </p>
+
+            <p>Le varie aree saranno suddivise in:</p>
+
+            <ul>
+                <li>Contenuti di intestazione del tag &lt;header&gt;;</li>
+                <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale);</li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;.</li>
+            </ul>
+        
+            <h4>Formattazione del codice</h4>
+
+            <p>
+                Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.
+                Perciò i passi saranno:
+            </p>
+
+            <ol>
+                <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato;</li>
+                <li>Scriver l'HTML dai tag esterni a quelli interni e dall'alto verso il basso;</li>
+                <li>Applicare gli stili CSS.</li>
+            </ol>
+
+            <p>
+                L'applicazione degli stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.
+            </p>
+
+            <table>
+                <tr>
+                    <th scope="col">Anno</th>
+                    <th scope=”col”>% di utilizzo</th>
+                    <th scope=”col”>Supporto browser</th>
+                </tr>
+            
+                <tr>
+                    <th scope=”row”>2000</th>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+
+                <tr>
+                    <th scope=”row”>2002</th>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+            
+                <tr>
+                    <th scope=”row”>2004</th>
+                    <td>45%</td>
+                    <td>42%</td>
+                </tr>
+
+                <tr>
+                    <th scope=”row”>2008</th>
+                    <td>80%</td>
+                    <td>51%</td>
+                </tr>
+
+                <tr>
+                    <th scope=”row”>2012</th>
+                    <td>100%</td>
+                    <td>76%</td>
+                </tr>
+            </table>
+
+            <p>
+                Un test di validazione potrà essere fatto tramite il ttol online
+                <a href="#"><em>-LINK ESTERNO-</em></a>
+                dedicato allo scopo.
+                Una volta ottimizzato il tutto, avremo raggiunto il nostro obbiettivo di essere stati
+                dei veri developers come loro:
+            </p>
+
+            <iframe src="https://www.youtube.com/watch?v=-sFdWEwQBC4&ab_channel=TomorrowDevs" frameborder="0"></iframe>
+        </article>
+
+        <hr>
+
+        <form  action=”” method=”get” id=””>
+            <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!</p>
+
+            <label for="username" aria-placeholder="email">Inserisci l'email:</label>
+            <input type="text" id="email" name="email">
+            <button>Iscriviti!</button>
+        </form>
+
+    </main>
+
+    <hr>
+
+    <section>
+        <p>Articoli correlati:</p>
+
+        <dl>
+            <dt>
+                <a href="">Validare il codice HTML</a>
+                <p>
+                    Categoria: develop <br>
+                    Data: 18-9-2020
+                </p>
+            </dt>
+            <dt>
+                <a href="">Correggere la sintassi</a>
+                <p>
+                    Categoria: develop <br>
+                    Data: 16-9-2020
+                </p>
+            </dt>
+            <dt>
+                <a href="">Meno Kb nella pagina</a>
+                <p>
+                    Categoria: ottimizzazione <br>
+                    Data: 30-9-2020
+                </p>
+            </dt>
+        </dl>
+    </section>
+    
+
+    <hr>
+
+    <footer>
+        <p>
+            Blog Epicode 	&copy; 2023
+        </p>  
+        
+        <p>
+            Testata online di Mario Rossi, registrata online con prot. n.213/218 - Via Luigi Einaudi 2 - Milano. P.IVA 00112233
+            <br>
+            info@epicode.school <a href="#"><em>-LINK MAIL-</em></a>
+        </p>
+    </footer>
+</body>
+</html>
