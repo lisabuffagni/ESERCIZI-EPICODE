@@ -1,0 +1,192 @@
+/*GENERALI*/
+body {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+
+
+/*HEADER*/
+header {
+    background-color: black;
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+header img {
+    width: 150px;
+}
+
+
+
+/*MAIN*/
+.container {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+    line-height: 1.65;
+}
+
+h1, h2, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    line-height: 1;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    width: 125px;
+    border-width: 0;
+    border-radius: 0.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+}
+
+.one {
+    background-image: url(/buildweek_27.10/img/banner.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+.one p {
+    text-align: center;
+    width: 450px;
+}
+
+.two p {
+    text-align: center;
+    width: 450px;
+}
+
+.two h3 {
+    text-align: center;
+    width: 450px;
+}
+
+.two h3:first-of-type {
+    padding-top: 4em;
+}
+
+h3, h2 {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    line-height: 1;
+}
+
+.two img {
+    border-radius: 50%;
+    padding-top: 2em;
+    height: 400px;
+    width: 400px;
+}
+
+.garanzia {
+    background-color: #e22d0e;;
+    padding-bottom: 2em;
+    margin-top: 3em;
+}
+
+.garanzia h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.garanzia p {
+    color: white;
+    text-align: center;
+    width: 450px;
+}
+
+.garanzia p:first-of-type {
+    font-style: italic;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.garanzia p:last-of-type {
+    font-size: 15px;
+}
+
+.garanzia p:nth-child(3) {
+    font-size: 25px;
+}
+
+
+
+/*ASIDE*/
+aside div {
+    margin-top: 3em;
+    margin-left: 25px;
+    border: 1px solid lightgrey;
+}
+
+aside div, h3, p {
+    width: 400px;
+}
+
+aside p{
+    padding-bottom: 3em;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    margin-top: 4em;
+    padding-bottom: 5em;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    padding-top: 2em;
+}
+
+footer p, address {
+    text-align: center;
+    width: 450px;
+}
+
+footer p:first-of-type {
+    text-decoration: underline;
+}
+
+address {
+    text-decoration: underline;
+}
+
+hr {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer a {
+    color: #c8e7f0;
+}

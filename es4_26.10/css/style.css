@@ -1,0 +1,113 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+    font-family: Poppins;
+}
+
+
+/* HEADER */
+header div {
+    background-color: teal;
+    margin: 2em;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 800px;
+    box-shadow: 10px 10px 10px grey
+}
+
+div > img {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+header p {
+    padding: 2%;
+}
+
+header ul {
+    padding: 6%;
+}
+
+header li {
+    margin: 3%;
+}
+
+
+/* MAIN */
+html, body, main {
+    width: fit-content;
+}
+
+.container {
+    background-color: white;
+    margin: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Poppins;
+    box-shadow: 10px 10px 10px grey
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+    font-size: 30px;
+}
+
+.container p {
+    padding-top: 1em;
+}
+
+.container li {
+    padding-top: 1em;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.credits {
+    color: gray;
+    margin-top: 1em;
+}
+
+strong {
+    color: purple;
+}
+
+code {
+    background-color: lightgrey;
+    border-radius: 5px solid gray;
+}
+
+iframe {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2em;
+}
+
+
+/* TABELLE */
+table , th, tr, td {
+    border: 1px solid gray;
+}
+
+thead {
+    background-color: cornflowerblue;
+}
+
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+section {
+    font-size: 30px;
+}
+
+/* FOOTER */
