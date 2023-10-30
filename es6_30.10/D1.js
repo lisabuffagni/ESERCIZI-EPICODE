@@ -75,3 +75,9 @@ let name1 = "john";
 let name2 = "John";
 
 console.log(name1 !== name2);
+
+
+//EXTRA
+let name2_lowercase = name2.toLowerCase();
+let newControl = (name1 === name2_lowercase);
+console.log(newControl);
