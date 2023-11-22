@@ -1,0 +1,28 @@
+body {
+    background-color: #131334;
+}
+
+#calendar, .day {
+    background-color: #0C0B1D;
+}
+
+.color-epic {
+    color: #7A408A;
+}
+
+h1, h2, h3, #appointments {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.day {
+    display: inline-block;
+    padding: 0.5em;
+    width: 3em;
+}
+
+#appointments {
+    display: none;
+}

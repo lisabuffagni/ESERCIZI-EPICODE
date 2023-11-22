@@ -1,0 +1,114 @@
+@media screen and (min-width: 576px) {
+    /*  HEADER */
+    header {
+        height: 38vh;
+        font-size: 3vh;
+        padding-top: 3vh;
+    }
+
+    header div img {
+        width: 32vh;
+        margin-bottom: 2vh;
+    }
+
+    nav {
+        height: 8vh;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-right: 3vh;
+    }
+
+    nav ul li:last-of-type {
+        margin-right: 0;
+    }
+
+    /* MAIN */
+    h1 {
+        font-size: 9vh;
+        line-height: 10vh;
+    }
+
+    li, main p, a {
+        font-size: 3vh;
+    }
+
+    h2 {
+        font-size: 3.5vh;
+        font-weight: bold;
+    }
+
+    article div {
+        border: solid  1vh purple;
+        height: 13.7vh;
+        width: fit-content;
+        margin-bottom: 0.5vh;
+    }
+
+    article img {
+        height: 12vh;
+        border: solid  1vh lightseagreen;
+    }
+
+    table { 
+        width: 70%;
+        margin-top: 10vh;
+        margin-bottom: 15vh;
+        margin-left: 15%;
+    }
+
+    caption {
+        font-size: 2.5vh;
+    }
+
+    iframe {
+        height: 20vh;
+    }
+
+    article section h2 {
+        background-color: rgb(168, 166, 166);
+        font-size: 4vh;
+        padding-top: 0.5vh;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: row;
+    }
+
+    input {
+        height: 7vh;
+        width: 65vh;
+        font-size: 2vh;
+    }
+
+    button {
+        height: 7vh;
+        width: 17vh;
+        font-size: 1.8vh;
+    }
+
+    aside div {
+        padding-bottom: 2vh;
+    }
+
+    aside a {
+        font-size: 2.5vh;
+    }
+
+    aside div p:last-child {
+        font-size: 2vh;
+    }
+
+    /* FOOTER*/
+    footer {
+        height: 28.5vh;
+        font-size: 3vh;
+    }
+}

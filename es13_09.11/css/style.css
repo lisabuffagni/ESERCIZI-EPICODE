@@ -1,0 +1,93 @@
+#container {
+    background-image: url(/es13_09.11/img/pixel-art-open-book-notebook-diary-vector-icon-8bit-game-white-background_360488-391.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    margin-top: 0;
+    padding-top: 3vh;
+}
+
+h2 {
+    margin-top: 10vh;
+    text-align: center;
+    font-weight: 400;
+}
+
+fieldset {
+    border: 0px;
+    float: left;
+    width: 17%;
+}
+
+.details {
+    background-color: #f4ff56;
+    padding: 2.5rem;
+    width: 8em;
+    height: 8em;
+    box-shadow: 2px 2px 2px  gray;
+    text-align: center;
+}
+
+.details p {
+display: inline-block;
+}
+
+
+footer {
+    background-color: #E6DDCB;
+    text-align: center;
+    color: #A8363E;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*
+fieldset {
+    border: 0px;
+    float: left;
+    width: 17%;
+    margin-left: 29.5%;
+}
+
+input {
+    margin-left: 12%;
+}
+
+button {
+    margin-left: 39%;
+    margin-top: 12%;
+}
+
+.details {
+    padding: 0 1em 0 1em;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+div p:last-of-type {
+    margin-top: 1.5em;
+}
+
+section {
+    background-color: aqua;
+    padding: 5em;
+    padding-bottom: 12em;
+    width: 1.5em;
+    margin-left: 55%;
+    height: 8em;
+}*/
+

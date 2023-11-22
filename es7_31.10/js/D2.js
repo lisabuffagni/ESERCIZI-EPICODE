@@ -24,7 +24,7 @@ let number = {
   value: 2
 };
 
-if (number.value != 5) {
+if (number.value !== 5) {
   console.log("not equal");
 }
 
@@ -54,7 +54,7 @@ let cifre = {
   num2: 5
 };
 
-if (numbers.num1 === 8 || numbers.num2 === 8 || numbers.num1 + numbers.num2 === 8 || Math.abs(numbers.num1 - numbers.num2) === 8) {
+if (cifre.num1 === 8 || cifre.num2 === 8 || cifre.num1 + cifre.num2 === 8 || cifre.num1 - cifre.num2 === 8) {
   console.log("True");
 } else {
   console.log("False");
@@ -100,8 +100,7 @@ if (totalShoppingCart > 50) {
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
-  Alla fine mostra il risultato in console.
-*/
+  Alla fine mostra il risultato in console.*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 // Crea tre variabili e assegna loro valori numerici
@@ -145,6 +144,7 @@ console.log(array);
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 let value = "5";
 
@@ -158,7 +158,15 @@ if (typeof value === 'number') {
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
-*/
+
+
+if (value % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 if (number.value % 2 === 0) {
@@ -187,6 +195,8 @@ if (number.value % 2 === 0) {
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
+
+
 const me = {
   name: 'John',
   lastName: 'Doe',

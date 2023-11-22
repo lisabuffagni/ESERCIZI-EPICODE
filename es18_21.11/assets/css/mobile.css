@@ -1,0 +1,90 @@
+@media screen and (min-width: 320px) {
+    /*  HEADER */
+    header {
+        height: 31vh;
+        font-size: 2vh;
+        padding-top: 1.5vh;
+    }
+
+    header div img {
+        width: 27vh;
+        margin: 1vh;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-right: 3vh;
+        margin-top: 1vh;
+    }
+
+    nav ul li:last-of-type {
+        margin-right: 0;
+    }
+
+
+    /* MAIN */
+    h1 {
+        line-height: 6vh;
+    }
+
+    main p, li, h2, table, a {
+        font-size: 2vh;
+    }
+
+    article div {
+        border: solid  0.6vh purple;
+        height: 9vh;
+        width: fit-content;
+        margin-bottom: 1vh;
+    }
+
+    article img {
+        height: 8vh;
+        border: solid  0.5vh lightseagreen;
+    }
+
+    aside div {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    aside div p:last-child {
+        font-size: 2vh;
+    }
+
+    table {
+        margin-right: 8vh;
+    }
+
+    iframe {
+        height: 20vh;
+    }
+
+    article section h2 {
+        background-color: rgb(168, 166, 166);
+        font-size: 3vh;
+        padding-top: 0.5vh;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: row;
+    }
+
+    input {
+        height: 3.5vh;
+        width: 25vh;
+        font-size: 2vh;
+    }
+
+    button {
+        height: 3.5vh;
+        width: 10vh;
+        font-size: 1.8vh;
+    }
+}

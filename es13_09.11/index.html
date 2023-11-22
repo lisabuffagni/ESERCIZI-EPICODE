@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="agenda">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+
+    <link rel="icon" href="/es13_09.11/img/images.png">
+    <link rel="stylesheet" href="/es13_09.11/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Agenda</h1>
+        </header>
+
+        <main>
+            <form>
+
+                <h2>Enter in the provided space your tasks:</h2>
+
+                <fieldset id="input">
+
+                    <input type="text" placeholder="code, do the laundry..."> 
+                    <button type="submit">submit</button> 
+
+                    <div class="details">
+                        <p>
+                            When you have completed a task, you can delete it by clicking on the button on the side of the list.
+                        </p>
+                    </div>
+                    
+                </fieldset>
+
+                <section id="output">
+
+                    <ul id="outputList"></ul> <!-- ad ogni li creato devo aggiungere tramite js un bottone che li permetta all'user di cancellare con un line-through la task e di renderla in italic -->
+
+                </section>
+            </form>
+        </main>
+
+        <footer>
+
+            <p>Remember to always keep yourself organized!</p>
+
+        </footer>
+    </div>
+
+    <script src="es13_09.11/js/script.js"></script>
+</body>
+</html>

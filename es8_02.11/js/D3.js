@@ -128,6 +128,16 @@ console.log(characters)
 */
 let femaleCharacters = [];
 
+/*
+
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  femaleCharacters.push(starWarsCharacters[i].gender === "female")
+}
+
+*/
+
+
+
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "female") {
     femaleCharacters.push(starWarsCharacters[i]);
@@ -140,7 +150,11 @@ console.log(femaleCharacters);
 /* ESERCIZIO 4
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
+
+
 */
+
+
 let eyeColor = {
   blue: [],
   yellow: [],
@@ -154,7 +168,26 @@ let eyeColor = {
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
-*/
+
+
+let coloreOcchi = {
+  blue: [],
+  yellow: [],
+  brown: [],
+  red: [],
+  blueGray: []
+}
+
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  if (starWarsCharacters[i].eye_color === "blue") {
+    coloreOcchi.blue.push(starWarsCharacters[i])
+  } 
+  
+}
+
+console.log(coloreOcchi)
+  */
+
 for (let i = 0; i < starWarsCharacters.length; i++) {
 
   switch (starWarsCharacters[i].eye_color) {
@@ -187,6 +220,7 @@ console.log(eyeColor);
 */
 let crewMass;
 let x = 0;
+
 
 while (x < starWarsCharacters.length) {
   let massa = starWarsCharacters[x];
@@ -222,6 +256,23 @@ if (crewMass < 500) {
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  if (starWarsCharacters.gender === n/a) {
+    starWarsCharacters.gender.pop()
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "n/a") {
     starWarsCharacters[i].gender = "robot"
