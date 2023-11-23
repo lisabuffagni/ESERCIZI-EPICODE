@@ -38,7 +38,7 @@ let numero = {
   value: 50
 };
 
-if (number.value % 5 === 0) {
+if (numero.value % 5 === 0) {
   console.log("divisibile per 5");
 }
 
